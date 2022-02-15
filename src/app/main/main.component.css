@@ -1,0 +1,44 @@
+.main {
+  grid-area: main;
+  background-color: #006BB0;
+  height: 100%;
+}
+
+.mainContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.editor {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btnItem {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.btnItem:hover {
+  border: 1px solid #006BB0;
+}
+
+.document {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 700px;
+  background-color: #fff;
+  border: 1px solid black;
+}
